@@ -1,0 +1,39 @@
+.header__container {
+	
+}
+
+.square {
+	fill: tomato;
+	stroke: navy;
+	stroke-width: 5px;
+}
+
+.rectangle {
+	fill:cadetblue;
+	stroke:chartreuse;
+	stroke-width: 5px;
+}
+
+.circle {
+	fill:brown;
+	stroke:bisque;
+	stroke-width: 5px;
+}
+
+.ellipse {
+	fill:black;
+	stroke:yellow;
+	stroke-width: 5px;
+	animation: ellipse-colors 3s infinite alternate; 
+}
+
+@keyframes ellipse-colors {
+	from {
+		fill:black;
+		stroke:yellow;
+	}
+	to {
+		fill:aliceblue;
+		stroke:cadetblue;
+	}
+}
